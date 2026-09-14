@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Victor Hugo Farias Vieira — Cybersecurity, DevOps and DevSecOps portfolio." />
+  <title>Victor Hugo | Cybersecurity • DevOps • DevSecOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <span class="brand-mark">VH</span>
+      <span class="brand-text">Victor Hugo</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#cybersecurity">Cybersecurity</a>
+      <a href="#devops">DevOps</a>
+      <a href="#devsecops">DevSecOps</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Software Engineering • Security • Infrastructure</p>
+        <h1>Hi, I’m <span>Victor Hugo</span>.</h1>
+        <p class="hero-subtitle">I build my career at the intersection of <strong>Cybersecurity</strong>, <strong>DevOps</strong> and <strong>secure software development</strong>.</p>
+        <p class="hero-description">Software Engineering graduate with hands-on IT Support experience and practical work in security operations, network analysis, Linux, Windows, CI/CD, containers and technical troubleshooting.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#tracks">Explore my work</a>
+          <a class="btn secondary" href="#contact">Contact me</a>
+        </div>
+        <div class="availability">
+          <span class="status-dot"></span>
+          Open to Cybersecurity, SOC, DevOps and DevSecOps opportunities
+        </div>
+      </div>
+
+      <aside class="terminal-card reveal" aria-label="Profile terminal">
+        <div class="terminal-top"><span></span><span></span><span></span></div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="terminal-output">Victor Hugo Farias Vieira</p>
+          <p><span class="prompt">$</span> focus --current</p>
+          <p class="terminal-output">Blue Team / SOC / Network Security</p>
+          <p><span class="prompt">$</span> background</p>
+          <p class="terminal-output">Software Engineering + IT Support + DevOps</p>
+          <p><span class="prompt">$</span> next</p>
+          <p class="terminal-output accent">DevSecOps & Application Security_</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section about-grid" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About me</p>
+        <h2>Technology from multiple angles.</h2>
+      </div>
+      <div class="about-content reveal">
+        <p>I started in technology through practical support and infrastructure work, solving real user, hardware, software, connectivity and system issues. My Software Engineering background strengthened the development side, while security labs and monitoring projects moved my focus toward defensive security.</p>
+        <p>Today, my main direction is Security Operations and Blue Team, while keeping the DevOps foundation that helps me understand systems, pipelines, containers and how software moves from code to production.</p>
+      </div>
+
+      <div class="stats reveal">
+        <article><strong>3+</strong><span>years in IT Support</span></article>
+        <article><strong>2026</strong><span>Software Engineering graduate</span></article>
+        <article><strong>3</strong><span>career tracks in one portfolio</span></article>
+      </div>
+    </section>
+
+    <section class="section" id="tracks">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Main tracks</p>
+        <h2>Three areas. One technical story.</h2>
+        <p class="muted">Use the tabs to explore each side of my profile.</p>
+      </div>
+
+      <div class="tabs reveal" role="tablist" aria-label="Career areas">
+        <button class="tab active" data-tab="cybersecurity" role="tab">01 Cybersecurity</button>
+        <button class="tab" data-tab="devops" role="tab">02 DevOps</button>
+        <button class="tab" data-tab="devsecops" role="tab">03 DevSecOps / AppSec</button>
+      </div>
+
+      <div class="tab-panels">
+        <section class="tab-panel active" id="cybersecurity" data-panel="cybersecurity">
+          <div class="track-intro reveal">
+            <div>
+              <p class="eyebrow">Cybersecurity</p>
+              <h3>Blue Team, SOC & Network Security</h3>
+            </div>
+            <p>My strongest current focus: triage, network analysis, incident investigation, evidence collection, IOC identification and technical documentation.</p>
+          </div>
+
+          <div class="skill-cloud reveal">
+            <span>Wazuh</span><span>Wireshark</span><span>Zeek</span><span>Snort</span><span>Nmap</span><span>Microsoft Defender</span><span>Linux</span><span>Windows</span><span>TCP/IP</span><span>PowerShell</span><span>PCAP Analysis</span><span>Incident Response</span>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-kicker">Network Forensics</div>
+              <h4>Silent Transfer</h4>
+              <p>Investigated a simulated corporate incident through PCAP and security telemetry, identifying malware delivery, C2 traffic, SMB reconnaissance, RDP lateral movement, suspicious DNS activity and possible exfiltration.</p>
+              <div class="tags"><span>Wireshark</span><span>Zeek</span><span>Snort</span><span>IOC</span></div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-kicker">Network Forensics</div>
+              <h4>Packed Light</h4>
+              <p>Analyzed HTTP traffic to identify a Python keylogger, encoded data, exfiltration behavior and command-and-control artifacts in a controlled lab environment.</p>
+              <div class="tags"><span>PCAP</span><span>HTTP</span><span>CyberChef</span><span>C2</span></div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-kicker">Security Monitoring</div>
+              <h4>Wazuh Deployment</h4>
+              <p>Freelance security project involving Wazuh deployment, vulnerability analysis and practical guidance on passwords, Wi-Fi/router hardening and phishing awareness.</p>
+              <div class="tags"><span>Wazuh</span><span>Monitoring</span><span>Vulnerability</span><span>Hardening</span></div>
+            </article>
+          </div>
+
+          <div class="learning-block reveal">
+            <div>
+              <p class="eyebrow">Networking knowledge base</p>
+              <h4>Building the fundamentals behind security investigations.</h4>
+            </div>
+            <div class="mini-grid">
+              <span>OSI Model</span><span>TCP/IP</span><span>ARP</span><span>DHCP</span><span>NAT</span><span>ICMP</span><span>TCP / UDP</span><span>Wireshark</span><span>Tcpdump</span><span>Nmap</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="devops" data-panel="devops">
+          <div class="track-intro">
+            <div>
+              <p class="eyebrow">DevOps</p>
+              <h3>Automation, containers & delivery pipelines</h3>
+            </div>
+            <p>My first professional DevOps experience gave me practical exposure to web project environments, Docker, Kubernetes, Bash, Git, CI/CD, builds, testing and workflow automation.</p>
+          </div>
+
+          <div class="skill-cloud">
+            <span>Docker</span><span>Kubernetes</span><span>CI/CD</span><span>Bash</span><span>Git</span><span>Builds</span><span>API Testing</span><span>Automation</span><span>Linux</span><span>Documentation</span>
+          </div>
+
+          <div class="experience-card">
+            <div class="experience-date">Sep — Dec 2021</div>
+            <div>
+              <p class="eyebrow">Professional experience</p>
+              <h4>Junior DevOps</h4>
+              <p class="muted">Temporary / contract experience</p>
+              <ul>
+                <li>Worked with web projects and development environments.</li>
+                <li>Used Docker, Kubernetes, Bash, Git and CI/CD workflows.</li>
+                <li>Supported builds, API testing, validation and code maintenance.</li>
+                <li>Contributed improvements to existing functionality and technical automation.</li>
+                <li>Documented work and participated in validation and approval workflows.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="devsecops" data-panel="devsecops">
+          <div class="track-intro">
+            <div>
+              <p class="eyebrow">DevSecOps / AppSec</p>
+              <h3>Where software, operations and security meet.</h3>
+            </div>
+            <p>This is the area I am actively expanding: applying security earlier in the software lifecycle and connecting development knowledge with defensive security practices.</p>
+          </div>
+
+          <div class="roadmap reveal">
+            <article><span>01</span><div><h4>Secure SDLC</h4><p>Security requirements, threat awareness and secure development practices throughout the lifecycle.</p></div></article>
+            <article><span>02</span><div><h4>SAST / DAST</h4><p>Static and dynamic application security testing integrated into development workflows.</p></div></article>
+            <article><span>03</span><div><h4>CI/CD Security</h4><p>Security checks, secrets handling, dependency scanning and safer pipeline practices.</p></div></article>
+            <article><span>04</span><div><h4>Container Security</h4><p>Hardening and analyzing containerized environments and their dependencies.</p></div></article>
+            <article><span>05</span><div><h4>Application Security</h4><p>Understanding vulnerabilities from the perspective of both software engineering and security.</p></div></article>
+          </div>
+
+          <div class="notice-card reveal">
+            <strong>Growing section.</strong>
+            <p>This area will receive new AppSec and DevSecOps projects as I complete hands-on labs, secure CI/CD exercises and application security studies.</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Experience</p>
+        <h2>Professional foundation.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date">Current</div>
+          <div class="timeline-content">
+            <h3>IT Support</h3>
+            <p>Technical support, troubleshooting, Windows/Linux systems, connectivity, users, access, endpoint maintenance, suspicious email triage and operational documentation.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date">2026</div>
+          <div class="timeline-content">
+            <h3>Freelance Cybersecurity</h3>
+            <p>Short security engagement focused on Wazuh monitoring, vulnerability analysis, router/Wi-Fi security guidance and phishing awareness.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <h3>Junior DevOps</h3>
+            <p>Contract role with Docker, Kubernetes, Bash, Git, CI/CD, testing, builds, documentation and automation in web project environments.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Education & learning</p>
+        <h2>Continuous technical development.</h2>
+      </div>
+      <div class="education-grid">
+        <article class="info-card reveal">
+          <span class="card-number">01</span>
+          <h3>Bachelor’s in Software Engineering</h3>
+          <p>Completed in 2026. Foundation in software development, systems, architecture, databases, operating systems and engineering practices.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="card-number">02</span>
+          <h3>Cybersecurity Labs</h3>
+          <p>Hands-on learning focused on SOC, network forensics, web security, Linux, Windows, OSINT and incident analysis.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="card-number">03</span>
+          <h3>Selected Certifications</h3>
+          <p>TryHackMe Pre-Security, Hacker Holidays completion, Malware Explorer badge, OhSINT badge and additional security studies.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Let’s connect</p>
+        <h2>Recruiter, hiring manager or fellow tech professional?</h2>
+        <p>I’m open to conversations about Cybersecurity, SOC, IT Infrastructure, DevOps and DevSecOps opportunities.</p>
+
+        <div class="contact-buttons">
+          <a class="contact-link" id="emailLink" href="mailto:YOUR_EMAIL">Email <span>↗</span></a>
+          <a class="contact-link" id="linkedinLink" href="#" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <a class="contact-link" id="githubLink" href="#" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a class="contact-link" id="whatsappLink" href="#" target="_blank" rel="noreferrer">WhatsApp <span>↗</span></a>
+        </div>
+      </div>
+
+      <form class="feedback-form reveal" id="feedbackForm">
+        <div class="form-head">
+          <p class="eyebrow">Feedback</p>
+          <h3>Leave me a message</h3>
+          <p>Your message will be prepared for email delivery. You can later connect this form to Formspree, EmailJS or another serverless form service.</p>
+        </div>
+        <label>
+          Name
+          <input type="text" name="name" required placeholder="Your name" />
+        </label>
+        <label>
+          Company / Role
+          <input type="text" name="company" placeholder="Company or role" />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@example.com" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" required rows="5" placeholder="Write your feedback or opportunity here..."></textarea>
+        </label>
+        <button class="btn primary form-submit" type="submit">Send feedback</button>
+        <p class="form-note" id="formNote">This version opens your default email app with the message filled in.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Victor Hugo Farias Vieira.</p>
+    <p>Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
