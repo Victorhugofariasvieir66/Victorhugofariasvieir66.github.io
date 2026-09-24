@@ -59,4 +59,4 @@ Later, the form can be connected to Formspree, EmailJS or a serverless function 
 
 Visit my professional portfolio:
 
-👉 https://victorhugofariasvieir66.github.io/victor-hugo-portfolio/
+👉 https://victorhugofariasvieir66.github.io/

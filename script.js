@@ -1,9 +1,9 @@
 // ===== EDIT THESE 4 VALUES BEFORE PUBLISHING =====
 const PROFILE = {
-  email: 'YOUR_EMAIL@example.com',
-  linkedin: 'https://www.linkedin.com/in/YOUR_PROFILE/',
-  github: 'https://github.com/YOUR_USERNAME',
-  whatsapp: '5519999999999' // country + area code + number, digits only
+  email: 'fariasvieira-2023@hotmail.com',
+  linkedin: 'https://www.linkedin.com/in/victorhugo-cybersecurity',
+  github: 'https://github.com/Victorhugofariasvieir66',
+  whatsapp: '5519978195173' // country + area code + number, digits only
 };
 // ==================================================
 
